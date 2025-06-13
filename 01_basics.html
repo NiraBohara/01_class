@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Better Twitter Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fab fa-twitter"></i> Twitter
+    </div>
+    <nav>
+      <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+      <a href="#"><i class="fas fa-hashtag"></i> Explore</a>
+      <a href="#"><i class="fas fa-bell"></i> Notifications</a>
+      <a href="#"><i class="fas fa-envelope"></i> Messages</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <ul>
+        <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+        <li><a href="#"><i class="fas fa-list"></i> Lists</a></li>
+        <li><a href="#"><i class="fas fa-bookmark"></i> Bookmarks</a></li>
+        <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+      </ul>
+      <button class="tweet-btn">Tweet</button>
+    </aside>
+
+    <main class="feed">
+      <section class="tweet-box">
+        <textarea placeholder="What’s happening?" rows="4"></textarea>
+        <div class="tweet-box-footer">
+          <div class="tweet-icons">
+            <i class="far fa-image"></i>
+            <i class="far fa-chart-bar"></i>
+            <i class="far fa-smile"></i>
+            <i class="far fa-calendar"></i>
+          </div>
+          <button>Tweet</button>
+        </div>
+      </section>
+
+      <section class="tweets">
+        <article class="tweet">
+          <div class="avatar">JD</div>
+          <div class="tweet-content">
+            <h3>John Doe <span>@johndoe · 1h</span></h3>
+            <p>This is my first tweet on this improved Twitter clone!</p>
+            <div class="tweet-actions">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+            </div>
+          </div>
+        </article>
+
+        <article class="tweet">
+          <div class="avatar">JS</div>
+          <div class="tweet-content">
+            <h3>Jane Smith <span>@janesmith · 3h</span></h3>
+            <p>Learning HTML and CSS is fun! #webdev</p>
+            <div class="tweet-actions">
+              <i class="far fa-comment"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <aside class="rightbar">
+      <div class="search">
+        <input type="text" placeholder="Search Twitter" />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="trends">
+        <h3>Trends for you</h3>
+        <ul>
+          <li>#Nepal</li>
+          <li>#WebDevelopment</li>
+          <li>#OpenAI</li>
+          <li>#ChatGPT</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
